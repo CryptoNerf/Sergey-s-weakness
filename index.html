@@ -17,8 +17,10 @@
             background-position: center center; /* Центрирует фон */
             background-repeat: no-repeat; /* Предотвращает повторение фонового изображения */
             background-attachment: fixed; /* Фон остается фиксированным */
-            color: #fff;
+            color: #000000;
             margin: 0; /* Убирает отступы */
+            overflow: hidden; /* Полностью убирает скролл */
+
         }
         #character-container {
             display: flex;
@@ -27,7 +29,6 @@
             width: 100%; /* Занимает всю ширину */
             max-width: 800px; /* Максимальная ширина контейнера */
             height: auto; /* Автоматическая высота */
-            margin-top: 50px; /* Отступ сверху для заголовка */
             margin-bottom: 150px; /* Отступ снизу */
         }
         #character {
@@ -116,5 +117,9 @@
 
         startReverseTimer(); // Запустить реверс-таймер при загрузке страницы
     </script>
+
+<footer>
+    <div class="copyright">Copyright 2024 Émile Alexanyan</div>
+</footer>
 </body>
 </html>
